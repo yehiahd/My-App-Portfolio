@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="udacity.nanodegree.android.myappportfolio.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#4190BE"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/header_title"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <Button
+        android:id="@+id/popular_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="@string/popular_movies"/>
+
+    <Button
+        android:id="@+id/stock_hawk"
+        android:background="#F08C35"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stock_hawk"/>
+
+    <Button
+        android:id="@+id/build_it_bigger"
+        android:background="#F08C35"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"/>
+
+    <Button
+        android:id="@+id/make_your_app_material"
+        android:layout_width="match_parent"
+        android:background="#F08C35"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:text="@string/make_your_app_material"/>
+
+    <Button
+        android:id="@+id/go_ubiquitous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F08C35"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="@string/go_ubiquitous"/>
+
+    <Button
+        android:id="@+id/capstone"
+        android:background="#E65100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="@string/capstone_my_own_app"/>
+    </LinearLayout>
+</ScrollView>
